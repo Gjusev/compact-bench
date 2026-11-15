@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compact-bench"
+version = "0.1.0"
+description = "Deterministic 3-regime context-compaction benchmark harness (FHA/EOCC/SAC) for arXiv:2611.05306"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Gjusev" }]
+# Zero-dependency core: Python stdlib only. Network access (urllib) is lazy
+# inside compact_bench.llm and needs no extra packages.
+dependencies = []
+
+[project.optional-dependencies]
+dev = []  # intentionally empty: tests run with stdlib unittest
+
+[tool.setuptools.packages.find]
+where = ["src"]
