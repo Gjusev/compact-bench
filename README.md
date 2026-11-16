@@ -1,5 +1,10 @@
 # compact-bench
 
+[![tests](https://github.com/Gjusev/compact-bench/actions/workflows/tests.yml/badge.svg)](https://github.com/Gjusev/compact-bench/actions/workflows/tests.yml)
+[![dependencies](https://img.shields.io/badge/dependencies-0-success)]()
+[![python](https://img.shields.io/badge/python-3.9%2B-blue)]()
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A deterministic, zero-dependency benchmark harness for the **three context
 regimes** of *"You don't need long context"* (Belcak et al., NVIDIA,
 [arXiv:2611.05306](https://arxiv.org/abs/2611.05306)):
