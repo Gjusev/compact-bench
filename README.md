@@ -14,10 +14,10 @@
 
 <p align="center">
   <a href="assets/video/compact-bench.mp4">
-    <img src="assets/video/preview.gif" alt="A context window full of lines collapses into a single amber handoff brief while the peak-context marker slides down" width="720">
+    <img src="assets/video/preview.gif" alt="compact-bench: the animated mark beside the headline number, 150 peak context once compacted, down from 477 with full history" width="720">
   </a>
   <br>
-  <sub><a href="assets/video/compact-bench.mp4">Watch the 8-second film (MP4, 0.1 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
+  <sub><a href="assets/video/compact-bench.mp4">Watch the 8-second film (MP4, 0.2 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
 </p>
 
 A deterministic, zero-dependency benchmark harness for the **three context
