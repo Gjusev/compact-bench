@@ -5,6 +5,21 @@
 [![python](https://img.shields.io/badge/python-3.9%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/logo-animated-dark.svg">
+    <img src="assets/logo/logo-animated-light.svg" alt="compact-bench: a context window compacting into one handoff brief" width="560">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="assets/video/compact-bench.mp4">
+    <img src="assets/video/preview.gif" alt="A context window full of lines collapses into a single amber handoff brief while the peak-context marker slides down" width="720">
+  </a>
+  <br>
+  <sub><a href="assets/video/compact-bench.mp4">Watch the 8-second film (MP4, 0.1 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
+</p>
+
 A deterministic, zero-dependency benchmark harness for the **three context
 regimes** of *"You don't need long context"* (Belcak et al., NVIDIA,
 [arXiv:2611.05306](https://arxiv.org/abs/2611.05306)):

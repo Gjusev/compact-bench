@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "compact-bench: offline benchmark harness for the FHA / EOCC / SAC context regimes"
+authors:
+  - family-names: Ouhaghi
+    given-names: Youssef
+type: software
+version: 0.1.0
+date-released: "2026-11-16"
+license: MIT
+repository-code: "https://github.com/Gjusev/compact-bench"
+keywords:
+  - llm-agents
+  - benchmark
+  - offline
+  - zero-dependencies
